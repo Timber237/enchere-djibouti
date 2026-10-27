@@ -1,0 +1,15 @@
+{
+  "name": "Enchères en ligne — Djibouti",
+  "short_name": "Enchères",
+  "description": "Enchères en ligne à Djibouti : ventes en direct, paiement mobile money, livraison dans tout le pays.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d1430",
+  "lang": "fr",
+  "icons": [
+    { "src": "/img/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/img/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

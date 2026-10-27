@@ -1,0 +1,20 @@
+{
+  "name": "mazad-djibouti",
+  "version": "1.0.0",
+  "description": "Plateforme d'enchères en ligne — Djibouti (FR/AR, FDJ, mobile money, salle live)",
+  "main": "server/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node server/seed.js --reset"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "compression": "^1.8.2",
+    "express": "^4.22.3",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.4"
+  }
+}

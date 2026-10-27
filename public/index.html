@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Enchères en ligne — Djibouti</title>
+  <meta name="description" content="Plateforme d'enchères en ligne à Djibouti : voitures, camions, électronique, électroménager, mobilier, machines. Paiement mobile money, livraison dans tout le pays.">
+  <meta name="theme-color" content="#0d1430">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" id="favicon" href="/img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/img/icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/app.css?v=6">
+  <script>
+    // Thème et langue appliqués avant le rendu (évite le flash)
+    try {
+      var th = localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.dataset.theme = th;
+      var lg = localStorage.getItem('lang');
+      if (lg === 'ar') { document.documentElement.lang = 'ar'; document.documentElement.dir = 'rtl'; }
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#view">Aller au contenu</a>
+  <div id="app"><div class="page-loading">…</div></div>
+  <noscript><p style="padding:24px">Activez JavaScript pour utiliser la plateforme d'enchères.</p></noscript>
+  <script src="/socket.io/socket.io.js" defer></script>
+  <script src="/js/icons.js" defer></script>
+  <script src="/js/app.js?v=6" defer></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+# Dépendances
+node_modules/
+
+# Base de données locale (recréée par `npm start` / `npm run seed`)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# Fichiers envoyés par les utilisateurs (on garde les photos de démo)
+public/uploads/*
+!public/uploads/demo/
+
+# Réglages locaux de l'éditeur / de l'agent
+.claude/
+
+# Divers
+*.log
+.DS_Store
+Thumbs.db
+.env
